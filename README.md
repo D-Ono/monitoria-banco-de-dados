@@ -1,2 +1,6 @@
-# monitoria-banco-de-dados
-Código desenvolvido para a monitoria de bando de dados
+# React Components
+
+Libraries: 
+ - Ant Design 
+ - Bootstrap
+ - Material UI
