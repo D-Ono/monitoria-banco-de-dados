@@ -1,18 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import { Button as MUIButton } from "@mui/material";
+import { Button as BSButton } from "react-bootstrap";
+import { Button as AntDButton } from "antd";
 
 const Home: React.FC = () => {
 	return (
 		<div>
 			<Link to="/antdesign">
-				<span>AntDesign</span>
+				<AntDButton type="primary">AntDesign</AntDButton>
 			</Link>
 			<Link to="/Bootstrap">
-				<span>Bootstrap</span>
+				<BSButton variant="primary">Bootstrap</BSButton>
 			</Link>
 			<Link to="/materialui">
-				<span>MaterialUI</span>
+				<MUIButton variant="contained">MaterialUI</MUIButton>
 			</Link>
 		</div>
 	);

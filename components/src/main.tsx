@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import AntDesign from "./pages/AntDesign";
 import Bootstrap from "./pages/Bootstrap";
 import MaterialUI from "./pages/MaterialUI";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
 	{
