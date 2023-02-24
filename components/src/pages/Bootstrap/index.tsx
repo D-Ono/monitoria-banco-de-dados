@@ -3,9 +3,9 @@ import React from "react";
 
 const Bootstrap: React.FC = () => {
 	return (
-		<>
+		<div>
 			<h2>Bootstrap</h2>
-		</>
+		</div>
 	);
 };
 
